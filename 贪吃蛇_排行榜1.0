@@ -7,7 +7,7 @@
 #define WIDE 50
 #define CHUSHI 5
 
-int canvas[HIGH][WIDE]={0};//-3为食物，-2为边框，-1为毒药，0为空白，1为蛇头，大于1为蛇身
+int canvas[HIGH][WIDE]={0};//-3为食物，-2为边框，-1为毒药，0为空白，1为蛇头，大于1为蛇身,test
 int i,j;
 int movedirection;
 int food_i,food_j;
