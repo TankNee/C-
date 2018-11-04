@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1538799298 source:e:\cspace\cprogram\yiidong\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	<conio.h>
+

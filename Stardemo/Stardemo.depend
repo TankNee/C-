@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1538206806 source:e:\cspace\cprogram\stardemo\main.c
+	<stdio.h>
+	<stdlib.h>
+
