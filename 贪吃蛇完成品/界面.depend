@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1538811428 source:e:\cspace\cprogram\界面\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	<conio.h>
+
+1538996693 source:e:\cspace\cprogram\贪吃蛇完成品\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	<conio.h>
+
