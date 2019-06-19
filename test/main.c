@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include<string.h>
 int main()
 {
-     zimu=65;
-    printf("ÇëÊäÈë×ÖÄ¸£ºA\n");
-    printf("%c",zimu+32);
-    return 0;
+    char x;
 }

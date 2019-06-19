@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    //空调机型的选择
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        />
+    //温度的显示控件
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/img_temp_1"
+            android:src="@drawable/two"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_temp_2"
+            android:layout_weight="1"
+            android:src="@drawable/four"
+            />
+    </LinearLayout>
+    //温度的调节控件
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_temp_up"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="UP"
+            android:layout_weight="1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_temp_down"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DOWN"
+            android:textAllCaps="false" />
+    </LinearLayout>
+    //制暖与制冷的选择控件
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/icemode"
+            android:text="ICE MODE"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/hotmode"
+            android:text="WARM MODE"
+            />
+    </LinearLayout>
+    //时间预约显示控件
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/img_time_1"
+            android:src="@drawable/zero"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_time_2"
+            android:layout_weight="1"
+            android:src="@drawable/show"
+            />
+    </LinearLayout>
+    //时间调节控件
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_time_up"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="UP"
+            android:layout_weight="1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_time_down"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DOWN"
+            android:textAllCaps="false" />
+    </LinearLayout>
+    //懒人模式
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AImode"
+        android:text="AI Mode"
+        android:textAllCaps="false"
+        />
+    //连接，发送，断开连接控件
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_connect"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Connect"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_yes"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="Yes"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_disconnect"
+            android:textAllCaps="false"
+            android:text="Disconnect"
+            />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/testView"
+            android:text=""
+            />
+    </ScrollView>
+
+
+</LinearLayout>
